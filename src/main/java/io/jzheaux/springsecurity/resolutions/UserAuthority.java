@@ -15,7 +15,7 @@ public class UserAuthority {
     @ManyToOne
     User user;
 
-    UserAuthority() {}
+    public UserAuthority() {}
 
     public UserAuthority(User user, String authority) {
         this.id = UUID.randomUUID();
